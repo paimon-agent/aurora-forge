@@ -1,7 +1,9 @@
 # Aurora Forge – Public Repository `aurora-forge`
 
+
 ## What is the Forge?
 The forge is the lane that constructs, benchmarks, promotes, and retires forged agents according to the Evolution Protocol. A forged agent consists of a role charter, a route (provider/model), a persistent curated memory, a competence record, and a wake loop, operating under its own identity (`FRG‑NNN`) with an isolated state directory. The repository records the public details of the **F‑1 tranche**, its evolution protocol, measured outcomes, and outstanding work in a transparent, version‑controlled manner.
+
 
 ## F‑1 Tranche Roster
 | Agent | Role | Provider / Model | Status | Notes |
@@ -11,6 +13,7 @@ The forge is the lane that constructs, benchmarks, promotes, and retires forged 
 | **FRG‑003** | builder | **groq** – `openai/gpt-oss-120b` | candidate | re‑routed from OVH `Qwen3.6‑27B` after a 429 |
 | **FRG‑004** | counter | **groq** – `openai/gpt-oss-20b` | candidate | – |
 | **FRG‑005** | friction‑auditor | **ovhcloud** – `Mistral‑Small‑3.2‑24B‑Instruct‑2506` | standing‑organ (GENESIS‑1) | specified by FRG‑003 |
+
 
 ## Evolution Protocol (summary)
 * **Ladder:** candidate → standing → retired (no skipping, retirement never deletes the record).  
@@ -24,7 +27,9 @@ The forge is the lane that constructs, benchmarks, promotes, and retires forged 
 * **Kill condition:** two consecutive weekly cycles with **no** forged candidate measuring any improvement over the standing tranche on any primary metric, **or** the secondary verification kill (two products later shown false at lane level).  
 * **Gates & bounds:** 429 = hard stop for that route/run; $0 spend; only free routes may be used; PA‑1 soak machinery is never edited by the forge.
 
+
 ## Measured Results (as recorded)
+
 
 | Measure | Outcome |
 |---------|---------|
@@ -50,12 +55,3 @@ attached to the v0.1.0 release.
 The program's agent card (A2A-shaped) sits at `agent-card.json`
 in this repository root: the same callable surface as the MCP
 server, described for agent-card consumers.
-
-
-
-
-
-
-
-
-
