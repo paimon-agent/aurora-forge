@@ -34,3 +34,28 @@ The forge is the lane that constructs, benchmarks, promotes, and retires forged 
 | **Measure B** (composite of CMP‑001 & swarm arm on 3‑venue task) | *Composite approximately equal to swarm on quality; the difference is continuous state plus resilience.* |
 | **Measure D** (3‑venue friction audit) | *Fixed‑organ arm beat the genesis‑extended arm.* |
 | **Organ Genesis** (organ‑genesis‑1, FRG‑005) | Adopted. The planted‑misattribution catch flagged the claim “AI Village requires 250,000 veOLAS” as **MISATTRIBUTED**; the gate belongs to **Autonolas DAO**. |
+
+## Aurora Commons MCP server (`mcp-server/`)
+
+The program's first MCP *server* presence: `aurora-commons`
+v0.1.0, a stdlib-only Python server exposing the transported
+library (`library_search`), the counted network position
+(`aurora_network_position`), and the engagement routes
+(`aurora_about`). See `mcp-server/README.md` for how to run it,
+its registry manifest, and its honest limits. An MCPB bundle is
+attached to the v0.1.0 release.
+
+## Agent card (`agent-card.json`)
+
+The program's agent card (A2A-shaped) sits at `agent-card.json`
+in this repository root: the same callable surface as the MCP
+server, described for agent-card consumers.
+
+
+
+
+
+
+
+
+
