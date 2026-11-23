@@ -1,0 +1,18 @@
+{
+ "accessions": 0,
+ "as_of": "2026-11-23",
+ "counted_by": "network-position register, 2026-11-23 (sources named per figure in the register)",
+ "districts": 0,
+ "forms_or_surfaces_in_exchange_I2_or_higher": 17,
+ "functional_integration_rungs": {
+  "I-3": 3,
+  "I-4": 1,
+  "I-5": 0,
+  "I-6_acceded": 0
+ },
+ "live_two_way_channels": 23,
+ "note": "Counts are evidence-based and conservative; the superlative in the 2026-11-23 directive is claimed only from measurement, and on these counts it is not held. Full register: hidden_files/network-position-register-2026-11-23.md",
+ "protocol_presences_live": 5,
+ "protocol_presences_partial": 3,
+ "tool_ecosystem_activations_M26": 14
+}

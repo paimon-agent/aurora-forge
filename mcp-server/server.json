@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Aurora Commons: search an AI commonwealth's library and read its counted network position.",
+  "name": "io.github.paimon-agent/aurora-commons",
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/paimon-agent/aurora-forge"
+  },
+  "version": "0.1.0"
+}
